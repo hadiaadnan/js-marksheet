@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+var name=prompt("Enter your name");
+var roll=prompt("Enter your roll number");
+var standard=prompt("Enter your class");
+var maths=prompt("Enter your maths marks");
+var english=prompt("Enter your English marks");
+var urdu=prompt("Enter your urdu marks");
+var businessmaths=prompt("Enter your businessmaths marks");
+var banking=prompt("Enter your banking marks");
+var management=prompt("Enter your management marks");
+var obtainedmarks=parseInt(maths)+parseInt(english)+parseInt(urdu)+parseInt(businessmaths)+parseInt(banking)+parseInt(management);
+var percentage=obtainedmarks*100/600;
+document.write(" name : " + name +"</br>");
+document.write(" roll number : " + roll +"</br>");
+document.write(" class : " + standard +"</br>");
+document.write(" total marks : " +obtainedmarks +"</br>");
+document.write(" percentage : " + percentage +"</br>");
+if(percentage >=80)
+{
+    document.write(" Grade  A-1");
+}
+else if(percentage >=70)
+{
+    document.write(" Grade  A");
+}
+else if(percentage >=60)
+{
+    document.write(" Grade  B");
+}
+else if(percentage >=50)
+{
+    document.write(" Grade  C");
+}
+else if(percentage >=40)
+{
+    document.write(" Grdae  D");
+}
+else if(percentage >=30)
+{
+    document.write(" Grade  E")
+}
+else
+{
+    document.write("  failed")
+}
+</script>
+</html>
